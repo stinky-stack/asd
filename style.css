@@ -1,0 +1,101 @@
+
+body,html
+{
+    width: 100%;
+    height: 100%;
+    background-color:#9e2a2b;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: default;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+  a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#adb5bd; 
+    text-decoration:none; 
+     
+}
+
+ 
+  .title
+  {
+      padding: 3.5em;
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      color:white;
+      text-shadow: 2px 2px 3px #2d3142;
+      position: relative;
+      
+      
+  }
+  #countdown {
+    width: 100%;
+    padding-top: 6em;
+    
+    
+    
+  }
+  label {
+    clear: both;
+    display: block;
+  }
+  #countdown span {
+    background: rgba(0,0,0,0);
+    color: white;
+    text-shadow: 2px 2px 3px #2d3142;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 25%;
+    display: block;
+    float: left;
+    border-right: 1px solid #FFF;
+    
+  }
+  #countdown span:last-child {
+    border-right: 1px solid #313233;
+  }
+footer{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+    position: fixed;
+    padding-left: 1%;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    bottom: 0pt;
+    
+}
+.petition
+{
+  display: none;
+    padding-top: 4em;
+    padding-bottom: 2%;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    text-shadow: 2px 2px 3px #2d3142;
+    
+    
+}
+
+@media only screen and (max-width:320px){
+
+.petition {
+    padding-bottom: 1em;
+  }
+}
