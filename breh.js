@@ -1,6 +1,6 @@
 'use strict'
 
-var target_date = new Date('November, 1, 2021').getTime();
+var target_date = new Date('October, 20, 2022').getTime();
  
 
 var days, hours, minutes, seconds;
